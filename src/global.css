@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Helvetica:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gordita:wght@500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --button-normal-button-text: Poppins;
+  --text-regular-normal: Roboto;
+  --font-open-sans: "Open Sans";
+  --font-sf-pro-display: "SF Pro Display";
+  --font-helvetica: Helvetica;
+  --font-raleway: Raleway;
+  --font-outfit: Outfit;
+  --font-space-grotesk: "Space Grotesk";
+  --font-gordita: Gordita;
+
+  /* font sizes */
+  --text-regular-normal-size: 16px;
+  --font-size-29xl: 48px;
+  --font-size-xl: 20px;
+  --button-small-button-text-small-size: 12px;
+  --font-size-5xs: 8px;
+  --font-size-3xs: 10px;
+  --button-normal-button-text-size: 14px;
+  --font-size-21xl: 40px;
+  --font-size-5xl: 24px;
+  --font-size-17xl: 36px;
+  --font-size-lg: 18px;
+  --font-size-13xl: 32px;
+  --font-size-smi: 13px;
+  --font-size-mini: 15px;
+  --font-size-11xl: 30px;
+
+  /* Colors */
+  --text-light-primary: #fff;
+  --color-black: #000;
+  --color-gainsboro-100: #e0e0e0;
+  --color-gainsboro-200: #d9d9d9;
+  --color-gainsboro-300: rgba(217, 217, 217, 0);
+  --color-gray-100: #fefefe;
+  --white: #fbfffe;
+  --color-gray-200: #fafafa;
+  --color-gray-300: #2b2b2b;
+  --color-gray-400: #1b2330;
+  --color-gray-500: #1e2329;
+  --gray-900: #161e2e;
+  --bg-header: #141414;
+  --color-gray-600: #111;
+  --color-gray-700: rgba(43, 43, 43, 0.5);
+  --color-gray-800: rgba(0, 0, 0, 0.87);
+  --color-gray-900: rgba(0, 0, 0, 0.54);
+  --color-gray-1000: rgba(30, 35, 41, 0);
+  --neutral-white-60: rgba(255, 255, 255, 0.6);
+  --color-gray-1100: rgba(255, 255, 255, 0.16);
+  --color-gray-1200: rgba(27, 35, 48, 0.85);
+  --green: #3dcd5e;
+  --text: #474d57;
+  --color-darkslategray-100: #414141;
+  --color-darkslategray-200: #313f55;
+  --color-darkslategray-300: #2c3c55;
+  --color-darkslategray-400: #2c394e;
+  --color-darkslategray-500: #353046;
+  --color-darkslategray-600: #262f3d;
+  --color-darkslategray-700: #112d48;
+  --color-aliceblue-100: #f2f7fd;
+  --color-aliceblue-200: rgba(237, 241, 251, 0);
+  --color-steelblue-100: #436db2;
+  --color-steelblue-200: #3374b0;
+  --color-steelblue-300: rgba(23, 78, 130, 0.15);
+  --color-darkseagreen: #78bd82;
+  --color-darkgray: #acacac;
+  --blue-1: #2f80ed;
+  --color-dodgerblue-100: #1b7bdb;
+  --accent: #707a8a;
+  --color-slategray-100: rgba(112, 122, 138, 0);
+  --gray-6: #f2f2f2;
+  --color-whitesmoke-100: #ededed;
+  --color-lightslategray-100: #829ab1;
+  --color-lightslategray-200: #91969f;
+  --text-gray: #8f95a4;
+  --color-royalblue-100: #2c80ff;
+  --color-royalblue-200: #1877f2;
+  --primary: #007fff;
+  --color-royalblue-300: #007dfa;
+  --color-silver-100: #c4c4c4;
+  --color-silver-200: #b8b8b8;
+  --color-darkslateblue-100: #3c4071;
+  --color-darkslateblue-200: #002a5c;
+  --color-darkslateblue-300: rgba(13, 60, 109, 0.5);
+  --color-cornflowerblue: #4482df;
+  --color-ghostwhite: #f2f5ff;
+  --color-lightgray-100: #d7d7d7;
+  --color-lightgray-200: #ccc;
+
+  /* Gaps */
+  --gap-9xs: 4px;
+  --gap-base: 16px;
+  --gap-5xs: 8px;
+  --gap-5xl: 24px;
+  --gap-mini: 15px;
+  --gap-xs: 12px;
+  --gap-3xs: 10px;
+  --gap-92xl: 111px;
+  --gap-13xl: 32px;
+  --gap-8xs: 5px;
+
+  /* Paddings */
+  --padding-5xl: 24px;
+  --padding-11xs: 2px;
+  --padding-7xs: 6px;
+  --padding-9xs: 4px;
+  --padding-5xs: 8px;
+  --padding-xs: 12px;
+  --padding-mini: 15px;
+  --padding-11xl: 30px;
+  --padding-352xl: 371px;
+  --padding-12xs: 1px;
+  --padding-base: 16px;
+  --padding-13xl: 32px;
+  --padding-9xl: 28px;
+
+  /* border radiuses */
+  --br-11xs: 2px;
+  --br-base: 16px;
+  --br-3xs: 10px;
+  --br-xs: 12px;
+  --br-9xs: 4px;
+  --br-21xl: 40px;
+  --br-5xs: 8px;
+  --br-smi: 13px;
+  --br-10xs: 3px;
+  --br-30xl: 49px;
+  --br-7xs: 6px;
+  --br-lg: 18px;
+  --br-8xs: 5px;
+  --br-12xs: 1px;
+  --br-sm: 14px;
+  --br-6xs: 7px;
+
+  /* Effects */
+  --light-shadow: 0px 5px 22px 4px rgba(30, 35, 41, 0.12);
+}

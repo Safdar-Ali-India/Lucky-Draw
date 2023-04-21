@@ -1,0 +1,261 @@
+.icon,
+.nameless {
+  position: absolute;
+}
+.icon {
+  top: 6px;
+  left: 0;
+  border-radius: var(--br-12xs);
+  width: 24px;
+  height: 24px;
+}
+.nameless {
+  top: 0;
+  left: 32px;
+  line-height: 150%;
+  font-weight: 500;
+}
+.parent {
+  top: 56px;
+  left: 649px;
+  width: 141px;
+  height: 36px;
+  display: none;
+}
+.footer,
+.parent,
+.relume {
+  position: absolute;
+}
+.relume {
+  top: 24px;
+  left: 0;
+  line-height: 150%;
+}
+.footer {
+  top: 851px;
+  left: 32px;
+  width: 1376px;
+  height: 72px;
+  opacity: 0;
+  font-size: var(--text-regular-normal-size);
+  font-family: var(--text-regular-normal);
+}
+.finalLuckyDodoVar01Icon,
+.finalLuckyDodoVar05Icon {
+  position: absolute;
+  top: 3px;
+  left: 85px;
+  width: 151px;
+  height: 85px;
+  object-fit: cover;
+}
+.finalLuckyDodoVar05Icon {
+  top: 0;
+  left: 0;
+  width: 148px;
+  height: 83px;
+}
+.finalLuckyDodoVar01Parent {
+  position: absolute;
+  top: 34px;
+  left: 602px;
+  width: 236px;
+  height: 88px;
+}
+.column,
+.welcomeHowDo {
+  position: absolute;
+  text-align: center;
+}
+.column {
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 923px;
+  font-size: var(--font-size-5xl);
+}
+.welcomeHowDo {
+  top: 212px;
+  left: 430px;
+  font-size: var(--font-size-13xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--gray-900);
+}
+.mobileNumber {
+  position: relative;
+  font-weight: 500;
+}
+.mobileNumberWrapper,
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 23px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrapper {
+  top: 30px;
+  left: 64px;
+  font-size: var(--font-size-lg);
+}
+.groupChild {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  border-radius: var(--br-3xs);
+  width: 453px;
+  height: 73px;
+}
+.mobileLightSolid {
+  position: absolute;
+  top: 34px;
+  left: 24px;
+  width: 19px;
+  height: 19px;
+  overflow: hidden;
+}
+.frameParent {
+  position: absolute;
+  top: 795px;
+  left: 493px;
+  width: 453px;
+  height: 80px;
+  display: none;
+  font-size: var(--button-small-button-text-small-size);
+  color: var(--color-darkslateblue-100);
+  font-family: var(--button-normal-button-text);
+}
+.facebookLogoIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.continueWithFacebook {
+  position: relative;
+}
+.continueWithAppleLeftAli,
+.continueWithFacebookLeft {
+  position: absolute;
+  top: 0;
+  left: 54px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-royalblue-200);
+  width: 345px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mini);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.continueWithAppleLeftAli {
+  top: 77px;
+  background-color: var(--color-black);
+  font-family: var(--font-sf-pro-display);
+}
+.groupItem {
+  top: 9px;
+  left: 0;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-whitesmoke-100);
+  width: 100px;
+  height: 2px;
+}
+.groupInner,
+.groupItem,
+.or {
+  position: absolute;
+}
+.groupInner {
+  top: 9px;
+  left: 137px;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-whitesmoke-100);
+  width: 100px;
+  height: 2px;
+}
+.or {
+  top: 0;
+  left: 110px;
+  font-weight: 600;
+}
+.rectangleParent {
+  position: absolute;
+  top: 164px;
+  left: 108px;
+  width: 237px;
+  height: 19px;
+  font-size: var(--text-regular-normal-size);
+  color: var(--gray-900);
+  font-family: var(--font-inter);
+}
+.mobileNumber1 {
+  position: absolute;
+  top: 26px;
+  left: 173px;
+  font-weight: 500;
+}
+.button {
+  position: absolute;
+  top: 213px;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: #f6f6f6;
+  width: 453px;
+  height: 73px;
+  text-align: center;
+  font-size: var(--button-normal-button-text-size);
+  color: var(--color-darkslateblue-100);
+  font-family: var(--button-normal-button-text);
+}
+.continueWithFacebookLeftParent {
+  position: absolute;
+  top: 351px;
+  left: 493px;
+  width: 453px;
+  height: 286px;
+  color: var(--text-light-primary);
+  font-family: var(--font-helvetica);
+}
+.googleLogoIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.continueWithGoogleLeftAl {
+  position: absolute;
+  top: 274px;
+  left: 547px;
+  border-radius: var(--br-3xs);
+  background-color: var(--text-light-primary);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.08), 0 2px 3px rgba(0, 0, 0, 0.17);
+  width: 345px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mini);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  color: var(--color-gray-900);
+  font-family: var(--text-regular-normal);
+}
+.signInWelcome {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 923px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-raleway);
+}

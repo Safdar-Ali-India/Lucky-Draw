@@ -1,0 +1,264 @@
+.letsGetYou {
+  position: absolute;
+  top: 0;
+  left: 21px;
+  font-size: var(--font-size-17xl);
+  line-height: 36px;
+  font-family: var(--font-inter);
+}
+.adeTiger,
+.fullName {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 24px;
+}
+.adeTiger {
+  top: 12px;
+  left: 16px;
+  line-height: 16px;
+}
+.adeTigerParent,
+.groupChild {
+  position: absolute;
+  left: 0;
+  width: 400px;
+  height: 40px;
+}
+.groupChild {
+  top: 0;
+  border-radius: var(--br-9xs);
+  box-shadow: 0 2px 2px 2px rgba(204, 204, 204, 0.1);
+  border: 1px solid var(--color-lightgray-200);
+  box-sizing: border-box;
+}
+.adeTigerParent {
+  top: 28px;
+  font-size: var(--button-small-button-text-small-size);
+  color: var(--color-lightgray-200);
+}
+.emailAddressParent,
+.fullNameParent {
+  position: absolute;
+  top: 116px;
+  left: 0;
+  width: 400px;
+  height: 68px;
+}
+.emailAddressParent {
+  top: 208px;
+}
+.div,
+.div1,
+.div2,
+.div3 {
+  position: absolute;
+  top: 12px;
+  line-height: 16px;
+}
+.div {
+  left: 60px;
+  color: var(--color-black);
+}
+.div1,
+.div2,
+.div3 {
+  left: 102px;
+}
+.div2,
+.div3 {
+  left: 166px;
+}
+.div3 {
+  left: 131px;
+}
+.groupIcon {
+  position: absolute;
+  height: 40%;
+  width: 9%;
+  top: 30%;
+  right: 87%;
+  bottom: 30%;
+  left: 4%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.phoneNumberParent {
+  position: absolute;
+  top: 300px;
+  left: 0;
+  width: 400px;
+  height: 68px;
+}
+.location {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--text-regular-normal-size);
+  line-height: 24px;
+}
+.optional {
+  position: absolute;
+  top: 5px;
+  left: 77px;
+  line-height: 16px;
+  color: var(--color-silver-100);
+}
+.groupIcon1 {
+  position: absolute;
+  height: 40%;
+  width: 4%;
+  top: 30%;
+  right: 4%;
+  bottom: 30%;
+  left: 92%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.selectLocationParent {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  width: 400px;
+  height: 40px;
+  color: var(--color-lightgray-200);
+}
+.locationParent {
+  position: absolute;
+  top: 536px;
+  left: 0;
+  width: 400px;
+  height: 68px;
+  font-size: var(--button-small-button-text-small-size);
+}
+.createPassword {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--text-regular-normal-size);
+  line-height: 24px;
+  color: var(--color-black);
+}
+.passwordMustContain,
+.passwordMustContain1 {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  line-height: 16px;
+}
+.passwordMustContain1 {
+  top: 104px;
+}
+.groupChild1 {
+  position: absolute;
+  top: 26px;
+  left: -4px;
+  width: 408px;
+  height: 48px;
+}
+.createPasswordParent,
+.groupChild2 {
+  position: absolute;
+  left: 0;
+  width: 400px;
+}
+.createPasswordParent {
+  top: 392px;
+  height: 120px;
+  font-size: var(--button-small-button-text-small-size);
+  color: var(--color-lightgray-200);
+}
+.groupChild2 {
+  top: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-royalblue-300);
+  box-shadow: 0 2px 2px 2px rgba(204, 204, 204, 0.1);
+  border: 1px solid var(--color-royalblue-300);
+  box-sizing: border-box;
+  height: 53px;
+}
+.signUp {
+  position: absolute;
+  top: 15px;
+  left: 171px;
+  line-height: 24px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 636px;
+  left: 0;
+  width: 400px;
+  height: 53px;
+  color: var(--text-light-primary);
+}
+.login {
+  position: absolute;
+  top: 0;
+  left: 128px;
+  text-decoration: underline;
+  line-height: 24px;
+  color: #476d73;
+}
+.alreadyAUserParent {
+  position: absolute;
+  top: 708px;
+  left: 115px;
+  width: 171px;
+  height: 24px;
+  color: var(--color-silver-100);
+}
+.letsGetYouStartedParent,
+.stroke5Icon {
+  position: absolute;
+  top: 200px;
+  left: 520px;
+  width: 400px;
+  height: 732px;
+}
+.stroke5Icon {
+  height: 60.34%;
+  width: 46.38%;
+  top: 0;
+  right: 53.62%;
+  bottom: 39.66%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.05;
+}
+.finalLuckyDodoVar01Icon,
+.finalLuckyDodoVar05Icon {
+  position: absolute;
+  top: 3px;
+  left: 85px;
+  width: 151px;
+  height: 85px;
+  object-fit: cover;
+}
+.finalLuckyDodoVar05Icon {
+  top: 0;
+  left: 0;
+  width: 148px;
+  height: 83px;
+}
+.finalLuckyDodoVar01Parent {
+  position: absolute;
+  top: 34px;
+  left: 602px;
+  width: 236px;
+  height: 88px;
+}
+.register {
+  position: relative;
+  background-color: var(--text-light-primary);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--text-regular-normal-size);
+  color: var(--color-black);
+  font-family: var(--font-space-grotesk);
+}

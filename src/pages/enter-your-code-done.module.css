@@ -1,0 +1,451 @@
+.icon,
+.nameless {
+  position: absolute;
+}
+.icon {
+  top: 6px;
+  left: 0;
+  border-radius: var(--br-12xs);
+  width: 24px;
+  height: 24px;
+}
+.nameless {
+  top: 0;
+  left: 32px;
+  line-height: 150%;
+  font-weight: 500;
+}
+.parent {
+  position: absolute;
+  top: 56px;
+  left: 649px;
+  width: 141px;
+  height: 36px;
+  display: none;
+}
+.relume {
+  top: 24px;
+  left: 0;
+  line-height: 150%;
+}
+.column,
+.footer,
+.relume {
+  position: absolute;
+}
+.footer {
+  top: 851px;
+  left: 32px;
+  width: 1376px;
+  height: 72px;
+  opacity: 0;
+  font-size: var(--text-regular-normal-size);
+  font-family: var(--text-regular-normal);
+}
+.column {
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 923px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-raleway);
+}
+.mobileNumber {
+  position: relative;
+  font-weight: 500;
+}
+.mobileNumberWrapper,
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 23px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrapper {
+  top: 30px;
+  left: 64px;
+  font-size: var(--font-size-lg);
+}
+.groupChild {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  border-radius: var(--br-3xs);
+  width: 453px;
+  height: 73px;
+}
+.mobileLightSolid {
+  position: absolute;
+  top: 34px;
+  left: 24px;
+  width: 19px;
+  height: 19px;
+  overflow: hidden;
+}
+.frameParent {
+  position: absolute;
+  top: 795px;
+  left: 493px;
+  width: 453px;
+  height: 80px;
+  display: none;
+  text-align: left;
+  font-size: var(--button-small-button-text-small-size);
+  color: var(--color-darkslateblue-100);
+}
+.welcomeHowDo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+}
+.facebookLogoIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.continueWithFacebook {
+  position: relative;
+}
+.continueWithAppleLeftAli,
+.continueWithFacebookLeft {
+  position: absolute;
+  top: 0;
+  left: 54px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-royalblue-200);
+  width: 345px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mini);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.continueWithAppleLeftAli {
+  top: 77px;
+  background-color: var(--color-black);
+  font-family: var(--font-sf-pro-display);
+}
+.groupInner,
+.groupItem {
+  position: absolute;
+  top: 9px;
+  left: 0;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-whitesmoke-100);
+  width: 100px;
+  height: 2px;
+}
+.groupInner {
+  left: 137px;
+}
+.or,
+.signUpWith {
+  position: absolute;
+  top: 0;
+  left: 110px;
+  font-weight: 600;
+}
+.signUpWith {
+  top: 43px;
+  left: 24px;
+  font-size: var(--button-small-button-text-small-size);
+  color: var(--color-lightslategray-200);
+}
+.rectangleParent {
+  position: absolute;
+  top: 164px;
+  left: 108px;
+  width: 237px;
+  height: 58px;
+  text-align: center;
+  font-size: var(--text-regular-normal-size);
+  color: var(--gray-900);
+  font-family: var(--font-inter);
+}
+.continue {
+  position: absolute;
+  top: 26px;
+  left: 194px;
+  font-weight: 500;
+}
+.button {
+  position: absolute;
+  top: 346px;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-royalblue-300);
+  width: 453px;
+  height: 73px;
+  text-align: center;
+  font-size: var(--button-normal-button-text-size);
+  font-family: var(--button-normal-button-text);
+}
+.continueWithFacebookLeftParent {
+  position: absolute;
+  top: 85px;
+  left: 63px;
+  width: 453px;
+  height: 419px;
+  font-size: var(--font-size-xl);
+  color: var(--text-light-primary);
+  font-family: var(--font-helvetica);
+}
+.rectangleIcon {
+  position: absolute;
+  top: 5.5px;
+  left: -1.5px;
+  border-radius: var(--br-3xs);
+  width: 456px;
+  height: 76px;
+}
+.frameGroup {
+  position: absolute;
+  top: 331px;
+  left: 63px;
+  width: 453px;
+  height: 80px;
+  font-size: var(--button-small-button-text-small-size);
+  color: var(--color-darkslateblue-100);
+  font-family: var(--button-normal-button-text);
+}
+.welcomeHowDoYouToGetStaParent {
+  position: absolute;
+  top: 236px;
+  left: 430px;
+  width: 580px;
+  height: 504px;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--gray-900);
+  font-family: var(--font-inter);
+}
+.enterYourCodeDoneChild {
+  position: absolute;
+  top: 169px;
+  left: 242px;
+  border-radius: var(--br-sm);
+  background-color: var(--text-light-primary);
+  width: 956px;
+  height: 585px;
+}
+.updateContactInfo {
+  position: absolute;
+  top: 574px;
+  left: 454px;
+  text-decoration: underline;
+  font-weight: 500;
+  font-family: var(--font-outfit);
+  color: var(--color-cornflowerblue);
+  text-align: right;
+}
+.button1,
+.div2 {
+  position: absolute;
+}
+.button1 {
+  top: 624px;
+  left: 493px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-royalblue-300);
+  width: 453px;
+  height: 73px;
+  font-size: var(--button-normal-button-text-size);
+  color: var(--text-light-primary);
+}
+.div2 {
+  top: 11px;
+  left: 22px;
+}
+.frame,
+.frameDiv {
+  top: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-ghostwhite);
+  width: 67px;
+  height: 67px;
+  overflow: hidden;
+}
+.frame {
+  position: absolute;
+  left: 279px;
+}
+.frameDiv {
+  left: 372px;
+}
+.div5,
+.frameDiv,
+.wrapper1 {
+  position: absolute;
+}
+.wrapper1 {
+  top: 0;
+  left: 465px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-ghostwhite);
+  width: 67px;
+  height: 67px;
+  overflow: hidden;
+}
+.div5 {
+  top: 11px;
+  left: 23px;
+}
+.wrapper2,
+.wrapper3 {
+  top: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-ghostwhite);
+  width: 67px;
+  overflow: hidden;
+}
+.wrapper2 {
+  position: absolute;
+  left: 186px;
+  height: 67px;
+}
+.wrapper3 {
+  left: 0;
+}
+.frameContainer,
+.wrapper3,
+.wrapper4 {
+  position: absolute;
+  height: 67px;
+}
+.wrapper4 {
+  top: 0;
+  left: 93px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-ghostwhite);
+  width: 67px;
+  overflow: hidden;
+}
+.frameContainer {
+  top: 48px;
+  left: 0;
+  width: 532px;
+  font-size: var(--font-size-17xl);
+}
+.div8,
+.resend {
+  position: absolute;
+  font-weight: 500;
+}
+.div8 {
+  top: 0;
+  left: 0;
+  font-family: var(--button-normal-button-text);
+  color: var(--color-darkslateblue-100);
+  text-align: left;
+}
+.resend {
+  top: 2px;
+  left: 467px;
+  color: var(--color-cornflowerblue);
+  text-align: right;
+}
+.groupParent {
+  position: absolute;
+  top: 443px;
+  left: 454px;
+  width: 532px;
+  height: 115px;
+  font-family: var(--font-outfit);
+}
+.groupChild1,
+.rectangleDiv {
+  border-radius: var(--br-base);
+}
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-aliceblue-100);
+  width: 52px;
+  height: 52px;
+}
+.groupChild1 {
+  top: 5.66px;
+  left: 5.66px;
+  background-color: var(--color-darkslategray-100);
+  width: 2px;
+  transform: rotate(45deg);
+}
+.groupChild1,
+.groupChild2,
+.rectangleContainer {
+  position: absolute;
+  height: 18px;
+  transform-origin: 0 0;
+}
+.groupChild2 {
+  top: 7.07px;
+  left: -7.07px;
+  border-radius: var(--br-base);
+  background-color: var(--color-darkslategray-100);
+  width: 2px;
+  transform: rotate(-45deg);
+}
+.rectangleContainer {
+  top: 13.27px;
+  left: 26px;
+  width: 18px;
+  transform: rotate(45deg);
+}
+.rectangleGroup {
+  position: absolute;
+  top: 197px;
+  left: 1118px;
+  width: 52px;
+  height: 52px;
+}
+.enterYourCode {
+  position: absolute;
+  top: 352px;
+  left: 536px;
+  font-size: var(--font-size-29xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+}
+.finalLuckyDodoVar01Icon,
+.finalLuckyDodoVar05Icon {
+  position: absolute;
+  top: 3px;
+  left: 85px;
+  width: 151px;
+  height: 85px;
+  object-fit: cover;
+}
+.finalLuckyDodoVar05Icon {
+  top: 0;
+  left: 0;
+  width: 148px;
+  height: 83px;
+}
+.finalLuckyDodoVar01Parent {
+  position: absolute;
+  top: 231px;
+  left: 602px;
+  width: 236px;
+  height: 88px;
+}
+.enterYourCodeDone {
+  position: relative;
+  background-color: var(--color-gray-200);
+  width: 100%;
+  height: 923px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-500);
+  font-family: var(--button-normal-button-text);
+}

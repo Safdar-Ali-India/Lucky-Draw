@@ -1,0 +1,27 @@
+.placeholderImage {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-21xl);
+  max-height: 100%;
+  width: 720px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.placeholderImageWrapper,
+.signInFormWhite {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.placeholderImageWrapper {
+  align-self: stretch;
+  padding: var(--padding-base) var(--padding-base) var(--padding-base) 0;
+  justify-content: center;
+}
+.signInFormWhite {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  overflow: hidden;
+  justify-content: flex-start;
+}

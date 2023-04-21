@@ -1,0 +1,639 @@
+.createAccount6Child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--text-light-primary);
+  width: 1440px;
+  height: 900px;
+}
+.createAccount6Item {
+  position: absolute;
+  top: 189px;
+  left: 235px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.contactUs,
+.privacy,
+.termsOfUse {
+  position: absolute;
+  top: 0;
+  left: 121px;
+  font-weight: 500;
+}
+.contactUs,
+.privacy {
+  left: 251px;
+}
+.contactUs {
+  left: 0;
+}
+.termsOfUseParent {
+  position: absolute;
+  top: 862px;
+  left: 570px;
+  width: 290px;
+  height: 14px;
+  display: none;
+  font-size: var(--button-small-button-text-small-size);
+}
+.iconProfile {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.cardProductGoogle,
+.cardProductGoogleWrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cardProductGoogleWrapper {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 18px);
+  flex-direction: row;
+}
+.createAccount6Inner {
+  position: absolute;
+  top: 50px;
+  left: calc(50% + 618px);
+  width: 36px;
+  height: 36px;
+  display: none;
+}
+.menuIcon {
+  position: absolute;
+  height: 2.22%;
+  width: 1.39%;
+  top: 8.67%;
+  right: 92.92%;
+  bottom: 89.11%;
+  left: 5.69%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.firstName {
+  position: absolute;
+  width: calc(100% - 142.28px);
+  top: 1px;
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 17px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: 14px;
+}
+.firstName1 {
+  position: relative;
+  letter-spacing: -0.3px;
+}
+.divplaceholder {
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0 109px var(--padding-12xs) 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputfirstname {
+  position: absolute;
+  width: calc(100% - 2px);
+  top: 1px;
+  right: 1px;
+  left: 1px;
+  height: 45px;
+}
+.div2 {
+  width: 100%;
+  top: 23px;
+  right: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--text-light-primary);
+  border: 1px solid var(--color-steelblue-300);
+  box-sizing: border-box;
+  height: 47px;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkslateblue-300);
+}
+.div1,
+.div2,
+.lastName {
+  position: absolute;
+  left: 0;
+}
+.div1 {
+  height: calc(100% - 23px);
+  top: 23px;
+  bottom: 0;
+  width: 213px;
+}
+.lastName {
+  width: calc(100% - 143.66px);
+  top: 1px;
+  letter-spacing: 0.15px;
+  line-height: 17px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: 14px;
+}
+.divplaceholder1 {
+  top: 14px;
+  left: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0 110px var(--padding-12xs) 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div,
+.div3,
+.divplaceholder1 {
+  position: absolute;
+}
+.div3 {
+  height: calc(100% - 23px);
+  top: 23px;
+  bottom: 0;
+  left: 229px;
+  width: 213px;
+}
+.div {
+  top: -23px;
+  left: calc(50% - 221px);
+  width: 442px;
+  height: 93px;
+  font-size: var(--font-size-smi);
+}
+.dateOfBirth,
+.gender {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 17px;
+  font-weight: 500;
+}
+.dateOfBirth {
+  left: 229px;
+}
+.divplaceholder2 {
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  width: 87px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-352xl) 0 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputemail {
+  position: absolute;
+  width: calc(100% + 228px);
+  top: 1px;
+  right: -229px;
+  left: 1px;
+  height: 45px;
+}
+.groupIcon {
+  position: absolute;
+  height: 46.81%;
+  width: 10.38%;
+  top: 29.79%;
+  right: 8.96%;
+  bottom: 23.4%;
+  left: 80.66%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div6 {
+  position: absolute;
+  width: calc(100% - 230px);
+  top: 23px;
+  right: 230px;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--text-light-primary);
+  border: 1px solid var(--color-steelblue-300);
+  box-sizing: border-box;
+  height: 47px;
+  font-size: var(--text-regular-normal-size);
+  color: var(--color-darkslateblue-300);
+}
+.divplaceholder3 {
+  top: 14px;
+  left: 15px;
+  width: 20px;
+  overflow: hidden;
+}
+.divplaceholder3,
+.groupIcon1,
+.mm {
+  position: absolute;
+}
+.mm {
+  top: 1px;
+  left: 0;
+  letter-spacing: -0.3px;
+}
+.groupIcon1 {
+  height: 100%;
+  width: 45.83%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 54.17%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.mmParent,
+.yrParent {
+  position: absolute;
+  top: 13px;
+  left: 77px;
+  width: 48px;
+  height: 22px;
+}
+.yrParent {
+  left: 139px;
+}
+.inputemail1 {
+  position: absolute;
+  width: calc(100% - 1px);
+  top: 1px;
+  right: 0;
+  left: 1px;
+  height: 45px;
+}
+.ddParent {
+  top: 14px;
+  left: 16px;
+  width: 48px;
+  height: 22px;
+}
+.ddParent,
+.div5,
+.div7 {
+  position: absolute;
+}
+.div7 {
+  width: calc(100% - 230px);
+  top: 23px;
+  right: 0;
+  left: 230px;
+  border-radius: var(--br-5xs);
+  background-color: var(--text-light-primary);
+  border: 1px solid var(--color-steelblue-300);
+  box-sizing: border-box;
+  height: 47px;
+  font-size: var(--text-regular-normal-size);
+  color: var(--color-darkslateblue-300);
+}
+.div5 {
+  height: 12.73%;
+  width: 82.16%;
+  top: 15.5%;
+  right: 8.92%;
+  bottom: 71.77%;
+  left: 8.92%;
+}
+.divplaceholder4 {
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-352xl) 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div8,
+.div9,
+.emailParent {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.div9 {
+  top: 23px;
+  border-radius: var(--br-5xs);
+  background-color: var(--text-light-primary);
+  border: 1px solid var(--color-steelblue-300);
+  box-sizing: border-box;
+  height: 47px;
+  font-size: var(--text-regular-normal-size);
+  color: var(--color-darkslateblue-300);
+}
+.div8,
+.emailParent {
+  top: 0;
+  height: 70px;
+}
+.div8 {
+  height: 12.73%;
+  width: 82.16%;
+  top: 46.13%;
+  right: 8.92%;
+  bottom: 41.14%;
+  left: 8.92%;
+}
+.iconnavigationarrowBackIos {
+  position: relative;
+  width: 5px;
+  height: 8px;
+  flex-shrink: 0;
+}
+.divplaceholder5 {
+  top: 14px;
+  left: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-352xl) 0 0;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.div10,
+.div11,
+.divplaceholder5 {
+  position: absolute;
+}
+.div11 {
+  width: 100%;
+  top: 23px;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--text-light-primary);
+  border: 1px solid var(--color-steelblue-300);
+  box-sizing: border-box;
+  height: 47px;
+  font-size: var(--text-regular-normal-size);
+  color: var(--color-gray-800);
+}
+.div10 {
+  height: calc(100% - 472px);
+  top: 333px;
+  bottom: 139px;
+  left: calc(50% - 220px);
+  width: 442px;
+  display: none;
+}
+.termsOfService {
+  text-decoration: underline;
+  color: var(--color-royalblue-100);
+}
+.bySigningUpContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.bySigningUpContainer,
+.createAccount1 {
+  position: absolute;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+}
+.bySigningUpContainer {
+  top: calc(50% - 79.5px);
+  left: calc(50% - 237.5px);
+  font-size: var(--button-normal-button-text-size);
+  letter-spacing: 0.15px;
+  width: 475px;
+}
+.createAccount1 {
+  top: calc(50% - 8px);
+  left: calc(50% - 54.44px);
+  letter-spacing: -0.2px;
+  justify-content: center;
+  width: 109.07px;
+  height: 16px;
+}
+.button {
+  position: absolute;
+  width: calc(100% - 33px);
+  top: calc(50% - 32.5px);
+  right: 19px;
+  left: 14px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-darkslateblue-200);
+  height: 42px;
+  display: none;
+  font-size: var(--font-size-mini);
+  color: var(--text-light-primary);
+}
+.alreadyHavenAn,
+.loginNow {
+  position: absolute;
+  letter-spacing: -0.11px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+}
+.alreadyHavenAn {
+  height: calc(100% - 145px);
+  top: 145px;
+  left: calc(50% - 143.5px);
+  justify-content: center;
+  width: 189.57px;
+}
+.loginNow {
+  top: 144px;
+  left: calc(50% + 43.87px);
+  text-decoration: underline;
+  color: var(--color-royalblue-100);
+  text-align: left;
+  width: 137.03px;
+  height: 14px;
+}
+.bySigningUpToTheDesignStParent {
+  position: absolute;
+  top: calc(50% - 31px);
+  left: calc(50% - 235px);
+  width: 475px;
+  height: 159px;
+}
+.div14 {
+  position: absolute;
+  height: calc(100% - 498px);
+  top: 366px;
+  bottom: 132px;
+  left: calc(50% - 221px);
+  width: 442px;
+  text-align: center;
+  font-size: var(--font-size-smi);
+  color: var(--color-lightslategray-100);
+}
+.divplaceholder6,
+.divplaceholder7 {
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  width: 72px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-352xl) 0 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divplaceholder7 {
+  width: 118px;
+}
+.div15 {
+  position: absolute;
+  height: 12.73%;
+  width: 82.16%;
+  top: 30.81%;
+  right: 8.92%;
+  bottom: 56.46%;
+  left: 8.92%;
+}
+.continue {
+  position: absolute;
+  top: 26px;
+  left: 194px;
+  font-weight: 500;
+}
+.button1 {
+  position: absolute;
+  top: 410px;
+  left: 42px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-royalblue-300);
+  width: 453px;
+  height: 73px;
+  text-align: center;
+  color: var(--text-light-primary);
+  font-family: var(--button-normal-button-text);
+}
+.createAccount {
+  position: absolute;
+  top: 265px;
+  left: 451px;
+  width: 538px;
+  height: 542px;
+  text-align: left;
+  color: var(--color-darkslategray-700);
+  font-family: var(--font-inter);
+}
+.fillInYour,
+.signUp {
+  position: absolute;
+  letter-spacing: 0.15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signUp {
+  top: 100px;
+  left: calc(50% - 33.3px);
+  line-height: 26px;
+  font-weight: 500;
+  width: 70.64px;
+  height: 20px;
+}
+.fillInYour {
+  top: 129px;
+  left: calc(50% - 156.05px);
+  font-size: var(--font-size-smi);
+  line-height: 18px;
+  color: var(--color-lightslategray-100);
+  width: 316.14px;
+  height: 14px;
+}
+.untitled1Icon {
+  position: absolute;
+  top: 62px;
+  left: 659px;
+  width: 123px;
+  height: 98px;
+  object-fit: cover;
+  display: none;
+}
+.finalLuckyDodoVar01Icon,
+.finalLuckyDodoVar05Icon {
+  position: absolute;
+  top: 4px;
+  left: 103px;
+  width: 181px;
+  height: 102px;
+  object-fit: cover;
+}
+.finalLuckyDodoVar05Icon {
+  top: 0;
+  left: 0;
+  width: 178px;
+  height: 100px;
+}
+.finalLuckyDodoVar01Parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 284px;
+  height: 106px;
+}
+.signUpParent {
+  position: absolute;
+  top: 93px;
+  left: calc(50% - 162px);
+  width: 320.17px;
+  height: 143px;
+  font-size: 19px;
+  color: var(--color-darkslategray-700);
+  font-family: var(--font-inter);
+}
+.categories,
+.profile {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  font-weight: 500;
+}
+.profile {
+  left: 236px;
+}
+.homeParent {
+  position: absolute;
+  top: 23px;
+  left: 582px;
+  width: 275px;
+  height: 17px;
+  display: none;
+}
+.createAccount6 {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+  background-image: url(/public/create-account-6@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: var(--button-normal-button-text-size);
+  color: var(--color-darkslateblue-200);
+  font-family: var(--font-sf-pro-display);
+}
